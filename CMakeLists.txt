@@ -3,4 +3,6 @@ project(untitled1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled1 main.cpp test.cpp test.h)
+link_libraries(hiredis)
+add_executable(untitled1 main.cpp test.cpp test.h conredis.cpp conredis)
+

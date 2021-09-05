@@ -6,6 +6,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include "conredis.cpp"
 //定义顺序串
 #define MaxSize 100
 typedef struct
@@ -149,9 +150,9 @@ void DispStr(SqString str)
         printf("\n");
     }
 }
-int main()
+int mains()
 {
-    menus();
+//    menus();
 }
 char cstr1[80],cstr2[80];
 SqString str1,str2,s1,s2,s3;
